@@ -1,5 +1,209 @@
-<!-- ...existing code... -->
-<script>
-  window.location.href = "/wildandbeyond";
-</script>
-<!-- ...existing code... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivek Doshi | GitHub Repository</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <div class="topbar">
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3V5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M12 18.5V21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M3 12H5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M18.5 12H21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M5.64 5.64L7.4 7.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M16.6 16.6L18.36 18.36" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M18.36 5.64L16.6 7.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          <path d="M7.4 16.6L5.64 18.36" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          <circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8" />
+        </svg>
+      </button>
+    </div>
+
+    <section class="hero" aria-labelledby="intro-title">
+      <p class="eyebrow">Personal GitHub Gateway</p>
+      <h1 id="intro-title">Hi,<br />I'm Vivek.<br />Welcome to my GitHub repo.</h1>
+      <p class="hero-copy">
+        This page is a compact launchpad into the work I care about most: <strong>photography</strong>,
+        <strong>portfolio projects</strong>, <strong>technical notes</strong>, and my <strong>resume</strong>.
+        Open any card and jump directly to that part of my world.
+      </p>
+      <div class="hero-pills" aria-label="Highlights">
+        <span class="pill">5 curated destinations</span>
+        <span class="pill">Responsive single-page layout</span>
+        <span class="pill">Light and dark theme toggle</span>
+      </div>
+    </section>
+
+    <section aria-labelledby="browse-title">
+      <div class="section-head">
+        <h2 id="browse-title">Browse Sections</h2>
+        <p>
+          Each card includes a custom SVG visual at the top and a clear action at the bottom.
+          Every link opens in a new tab so this page stays available as your central hub.
+        </p>
+      </div>
+
+      <div class="grid">
+        <a class="card" href="https://vivek-doshi.github.io/wildandbeyond/" target="_blank" rel="noreferrer noopener" aria-label="Open My Other Side - Photography">
+          <div class="card-visual">
+            <svg width="140" height="92" viewBox="0 0 140 92" fill="none" aria-hidden="true">
+              <rect x="24" y="18" width="92" height="56" rx="16" fill="#e7f7f3" />
+              <rect x="32" y="26" width="76" height="40" rx="12" fill="#ffffff" />
+              <circle cx="58" cy="46" r="11" fill="#7fd3ad" />
+              <circle cx="58" cy="46" r="6" fill="#dff7ea" />
+              <path d="M86 58L72 46L60 58H86Z" fill="#9ddfc3" />
+              <path d="M85 29L93 21" stroke="#4ab78a" stroke-width="4" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="card-content">
+            <p class="card-tag">Photography</p>
+            <h3>My Other Side</h3>
+            <p>Wild and Beyond, a more personal visual space focused on photography and field moments.</p>
+            <div class="card-footer">
+              <div class="card-path">vivek-doshi.github.io/wildandbeyond/</div>
+              <span class="card-link">Open link
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M3 11L11 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <path d="M5 3H11V9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card" href="https://wildandbeyondbirdsofindia.netlify.app/" target="_blank" rel="noreferrer noopener" aria-label="Open My Photography Project">
+          <div class="card-visual">
+            <svg width="140" height="92" viewBox="0 0 140 92" fill="none" aria-hidden="true">
+              <circle cx="45" cy="46" r="18" fill="#dff3ff" />
+              <circle cx="73" cy="34" r="12" fill="#bfe8d1" />
+              <circle cx="72" cy="57" r="14" fill="#ffd9b9" />
+              <path d="M58 46H88" stroke="#77bce5" stroke-width="5" stroke-linecap="round" />
+              <path d="M84 49L95 43" stroke="#ff9961" stroke-width="5" stroke-linecap="round" />
+              <path d="M82 54L90 60" stroke="#4cb889" stroke-width="5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="card-content">
+            <p class="card-tag">Photo Project</p>
+            <h3>Birds of India</h3>
+            <p>A focused photography project showcasing birds, species notes, and curated visual storytelling.</p>
+            <div class="card-footer">
+              <div class="card-path">wildandbeyondbirdsofindia.netlify.app/</div>
+              <span class="card-link">Open link
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M3 11L11 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <path d="M5 3H11V9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card" href="https://vivek-doshi.github.io/portfolio/" target="_blank" rel="noreferrer noopener" aria-label="Open My Portfolio">
+          <div class="card-visual">
+            <svg width="140" height="92" viewBox="0 0 140 92" fill="none" aria-hidden="true">
+              <rect x="26" y="24" width="88" height="44" rx="14" fill="#ddf3e8" />
+              <path d="M46 46L62 36V56L46 46Z" fill="#121826" />
+              <path d="M74 38H100" stroke="#d9f0e6" stroke-width="5" stroke-linecap="round" />
+              <path d="M74 50H96" stroke="#d9f0e6" stroke-width="5" stroke-linecap="round" />
+              <path d="M90 24L98 17" stroke="#79ceae" stroke-width="4" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="card-content">
+            <p class="card-tag">Portfolio</p>
+            <h3>My Portfolio</h3>
+            <p>A front door to selected work, experiments, and the broader profile behind this repository.</p>
+            <div class="card-footer">
+              <div class="card-path">vivek-doshi.github.io/portfolio/</div>
+              <span class="card-link">Open link
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M3 11L11 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <path d="M5 3H11V9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card" href="https://vivek-doshi.github.io/handbooks/" target="_blank" rel="noreferrer noopener" aria-label="Open Technical Handbook">
+          <div class="card-visual">
+            <svg width="140" height="92" viewBox="0 0 140 92" fill="none" aria-hidden="true">
+              <rect x="32" y="20" width="20" height="36" rx="5" fill="#62b6ff" />
+              <rect x="60" y="14" width="20" height="42" rx="5" fill="#79d3a8" />
+              <rect x="88" y="26" width="20" height="30" rx="5" fill="#ff985f" />
+              <path d="M28 62C42 54 54 54 70 62C86 70 98 70 112 62" stroke="#101c30" stroke-width="5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="card-content">
+            <p class="card-tag">Learning</p>
+            <h3>Technical Handbook</h3>
+            <p>Reference material, notes, and practical write-ups collected into a quick-access handbook library.</p>
+            <div class="card-footer">
+              <div class="card-path">vivek-doshi.github.io/handbooks/</div>
+              <span class="card-link">Open link
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M3 11L11 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <path d="M5 3H11V9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card" href="https://vivek-doshi.github.io/Resume/" target="_blank" rel="noreferrer noopener" aria-label="Open Resume">
+          <div class="card-visual">
+            <svg width="140" height="92" viewBox="0 0 140 92" fill="none" aria-hidden="true">
+              <rect x="34" y="17" width="72" height="56" rx="12" fill="#e9f4ff" />
+              <rect x="45" y="30" width="28" height="6" rx="3" fill="#ffffff" />
+              <rect x="45" y="42" width="50" height="6" rx="3" fill="#cfe8ff" />
+              <rect x="45" y="54" width="42" height="6" rx="3" fill="#bde3c9" />
+              <path d="M104 23L112 31" stroke="#101c30" stroke-width="4" stroke-linecap="round" />
+              <path d="M104 31L112 23" stroke="#101c30" stroke-width="4" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="card-content">
+            <p class="card-tag">Career</p>
+            <h3>Resume</h3>
+            <p>A concise view of experience, skills, and the professional background that supports these projects.</p>
+            <div class="card-footer">
+              <div class="card-path">vivek-doshi.github.io/Resume/</div>
+              <span class="card-link">Open link
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M3 11L11 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <path d="M5 3H11V9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      var storageKey = "vivek-theme";
+      var savedTheme = localStorage.getItem(storageKey);
+      var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var shouldUseDark = savedTheme ? savedTheme === "dark" : prefersDark;
+      var button = document.querySelector(".theme-toggle");
+
+      if (shouldUseDark) {
+        document.body.classList.add("dark");
+      }
+
+      button.addEventListener("click", function () {
+        document.body.classList.toggle("dark");
+        localStorage.setItem(storageKey, document.body.classList.contains("dark") ? "dark" : "light");
+      });
+    })();
+  </script>
+</body>
+</html>
