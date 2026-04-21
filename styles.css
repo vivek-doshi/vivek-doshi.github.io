@@ -220,6 +220,10 @@ body.dark .card {
   animation-delay: 320ms;
 }
 
+.card:nth-child(6) {
+  animation-delay: 400ms;
+}
+
 .card {
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
