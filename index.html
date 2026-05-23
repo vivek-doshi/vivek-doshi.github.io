@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Vivek Doshi's personal GitHub landing page featuring a photography portfolio, DevOps playbook, technical handbooks, and resume." />
+  <meta name="description" content="Vivek Doshi's birdwatcher terminal landing page featuring photography portfolio, DevOps playbook, technical handbooks, and resume." />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="author" content="Vivek Doshi" />
   <meta name="theme-color" content="#0c111b" />
@@ -22,6 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   <link rel="stylesheet" href="styles.css" />
   <script type="application/ld+json">
     {
@@ -45,99 +46,163 @@
   </script>
 </head>
 <body>
-  <div class="ambient" aria-hidden="true"></div>
-
   <main class="page">
-    <header class="hero" aria-labelledby="intro-title">
-      <div class="hero-bar">
-        <p class="overline">Creative Engineering Interface</p>
-        <button class="command-trigger" type="button" aria-label="Open command palette" data-open-palette>
-          <span>Open Command Palette</span>
+    <section class="os-root" aria-label="Birdwatcher terminal home">
+      <header class="titlebar">
+        <div class="dots" aria-hidden="true">
+          <span class="dot r"></span>
+          <span class="dot y"></span>
+          <span class="dot g"></span>
+        </div>
+        <p class="titlebar-label">vivek-doshi - birdwatcher-terminal - zsh</p>
+        <button class="cmd-badge" type="button" data-open-palette>
+          <span>Quick Nav</span>
           <kbd>Ctrl K</kbd>
         </button>
-      </div>
-      <h1 id="intro-title">Vivek Doshi</h1>
-      <p class="hero-tagline">An engineer's creative operating system.</p>
-      <p class="hero-copy">
-        A cinematic control room for photography, systems thinking, technical writing, and hands-on execution.
-        Explore with cards or jump instantly using the command palette.
-      </p>
-    </header>
+      </header>
 
-    <section class="bento" aria-label="Primary navigation">
-      <article class="panel panel-feature" data-reveal>
-        <p class="panel-kicker">Featured Project</p>
-        <h2>Photography Portfolio</h2>
-        <p>
-          A curated visual system of field moments, storytelling frames, and crafted edits. This is the visual core of my work.
-        </p>
-        <a class="panel-link" href="https://vivek-doshi.github.io/portfolio/" target="_blank" rel="noreferrer noopener">Launch portfolio</a>
-        <ul class="feature-meta" aria-label="Featured project metadata">
-          <li>Format: Photography gallery</li>
-          <li>Focus: Visual narrative</li>
-          <li>State: Curated and evolving</li>
-        </ul>
-      </article>
-
-      <article class="panel panel-status" data-reveal>
-        <p class="panel-kicker">Live Status</p>
-        <h3>System Presence</h3>
-        <div class="status-list" aria-live="polite">
-          <div class="status-item">
-            <span class="status-dot"></span>
-            <span>Currently shipping and experimenting</span>
-          </div>
-          <div class="status-item">
-            <span class="status-label">Local Time</span>
-            <span id="local-time">--:--:--</span>
-          </div>
-          <div class="status-item">
-            <span class="status-label">Mode</span>
-            <span>Deep work</span>
-          </div>
+      <section class="hero" aria-labelledby="intro-title">
+        <div>
+          <p class="hero-eyebrow">● FIELD STATION ACTIVE - BIRDS OF INDIA PROJECT</p>
+          <h1 id="intro-title" class="hero-name">Vivek Doshi</h1>
+          <p class="hero-sub">Principal Engineer · Wildlife Photographer · Systems Builder</p>
+          <p class="typing-line"><span>$</span> ./vivek --mode=<span id="typed-text">deep-work</span><span class="cursor" aria-hidden="true"></span></p>
         </div>
-      </article>
 
-      <a class="panel panel-link-card" data-reveal href="https://vivek-doshi.github.io/devops-playbook/" target="_blank" rel="noreferrer noopener" aria-label="Open DevOps Playbook">
-        <p class="panel-kicker">DevOps</p>
-        <h3>Playbook</h3>
-        <p>Delivery patterns and production notes.</p>
-      </a>
+        <aside class="radar-panel" aria-label="Species statistics">
+          <p class="radar-label">SPECIES DOCUMENTED</p>
+          <svg class="radar-svg" width="100" height="100" viewBox="0 0 100 100" aria-hidden="true">
+            <circle cx="50" cy="50" r="46" fill="none" stroke="#21262d" stroke-width="0.5" />
+            <circle cx="50" cy="50" r="34" fill="none" stroke="#21262d" stroke-width="0.5" />
+            <circle cx="50" cy="50" r="22" fill="none" stroke="#21262d" stroke-width="0.5" />
+            <line x1="50" y1="4" x2="50" y2="96" stroke="#21262d" stroke-width="0.5" />
+            <line x1="4" y1="50" x2="96" y2="50" stroke="#21262d" stroke-width="0.5" />
+            <circle cx="50" cy="50" r="2" fill="#3fb950" />
+            <circle cx="72" cy="32" r="3" fill="#3fb950" opacity="0.9" />
+            <circle cx="38" cy="68" r="2.5" fill="#3fb950" opacity="0.8" />
+            <circle cx="61" cy="71" r="2" fill="#3fb950" opacity="0.7" />
+            <circle cx="27" cy="41" r="2.5" fill="#3fb950" opacity="0.9" />
+            <circle cx="82" cy="58" r="2" fill="#3fb950" opacity="0.6" />
+            <circle cx="45" cy="22" r="2" fill="#3fb950" opacity="0.8" />
+            <circle cx="68" cy="48" r="1.5" fill="#3fb950" opacity="0.5" />
+            <circle cx="33" cy="55" r="2" fill="#3fb950" opacity="0.7" />
+            <line class="sweep" x1="50" y1="50" x2="50" y2="4" stroke="#3fb950" stroke-width="1" stroke-opacity="0.6" />
+          </svg>
+          <p class="radar-count">157</p>
+          <p class="radar-sub">of ~1,400 species</p>
+          <p class="radar-stack">Stack</p>
+          <p class="radar-tech">.NET 8 · Angular · K8s, GenAi,</p>
+          <div class="progress-bar-outer" aria-hidden="true">
+            <div class="progress-bar-inner"></div>
+          </div>
+          <div class="progress-label" aria-hidden="true"><span>0</span><span>11.2%</span><span>1400</span></div>
+        </aside>
+      </section>
 
-      <a class="panel panel-link-card" data-reveal href="https://vivek-doshi.github.io/handbooks/" target="_blank" rel="noreferrer noopener" aria-label="Open Handbooks">
-        <p class="panel-kicker">Knowledge</p>
-        <h3>Handbooks</h3>
-        <p>Fast references for recurring problems.</p>
-      </a>
+      <section class="terminal-grid">
+        <article class="species-feed" aria-label="Recent field log">
+          <h2 class="section-label">● RECENT FIELD LOG — BIRDS OF INDIA</h2>
 
-      <a class="panel panel-link-card" data-reveal href="https://vivek-doshi.github.io/Resume/" target="_blank" rel="noreferrer noopener" aria-label="Open Resume">
-        <p class="panel-kicker">Career</p>
-        <h3>Resume</h3>
-        <p>Experience, impact, and capabilities.</p>
-      </a>
+          <div class="species-entry">
+            <div class="ping-dot new"></div>
+            <div class="species-info">
+              <div class="species-name">Jungle Myna</div>
+              <div class="species-meta">
+                <span class="meta-tag tag-date">01 May 2026</span>
+                <span class="meta-tag tag-loc">balewadi | IN-MH</span>
+              </div>
+            </div>
+          </div>
 
-      <article class="panel panel-command" data-reveal>
-        <p class="panel-kicker">Navigation</p>
-        <h3>Command Layer</h3>
-        <p>
-          Press <kbd>Ctrl</kbd> + <kbd>K</kbd> or <kbd>/</kbd> to navigate instantly.
-        </p>
-        <button type="button" class="panel-link ghost" data-open-palette>Open Palette</button>
-      </article>
-    </section>
+          <div class="species-entry">
+            <div class="ping-dot new"></div>
+            <div class="species-info">
+              <div class="species-name">Tree Pipit</div>
+              <div class="species-meta">
+                <span class="meta-tag tag-date">12 Apr 2026</span>
+                <span class="meta-tag tag-loc">sing | IN-MH</span>
+              </div>
+            </div>
+          </div>
 
-    <section class="seo-section" aria-labelledby="site-overview-title">
-      <h2 id="site-overview-title">Site Overview</h2>
-      <p>
-        This personal website by Vivek Doshi is a central entry point to four focused areas: a photography portfolio,
-        a DevOps playbook, technical handbooks, and a professional resume.
-      </p>
-      <nav class="seo-links" aria-label="Search-friendly quick links">
-        <a href="https://vivek-doshi.github.io/portfolio/" target="_blank" rel="noreferrer noopener">Photography Portfolio</a>
-        <a href="https://vivek-doshi.github.io/devops-playbook/" target="_blank" rel="noreferrer noopener">DevOps Playbook</a>
-        <a href="https://vivek-doshi.github.io/handbooks/" target="_blank" rel="noreferrer noopener">Technical Handbooks</a>
-        <a href="https://vivek-doshi.github.io/Resume/" target="_blank" rel="noreferrer noopener">Resume</a>
-      </nav>
+          <div class="species-entry">
+            <div class="ping-dot old"></div>
+            <div class="species-info">
+              <div class="species-name">Gray Wagtail</div>
+              <div class="species-meta">
+                <span class="meta-tag tag-date">26 Jan 2026</span>
+                <span class="meta-tag tag-loc">go | IN-GJ</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="species-entry">
+            <div class="ping-dot old"></div>
+            <div class="species-info">
+              <div class="species-name">Bluethroat</div>
+              <div class="species-meta">
+                <span class="meta-tag tag-date">26 Jan 2026</span>
+                <span class="meta-tag tag-loc">go | IN-GJ</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="species-entry">
+            <div class="ping-dot old"></div>
+            <div class="species-info">
+              <div class="species-name">Indian Paradise-Flycatcher</div>
+              <div class="species-meta">
+                <span class="meta-tag tag-date">26 Jan 2026</span>
+                <span class="meta-tag tag-loc">indroda | IN-GJ</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="species-entry">
+            <div class="ping-dot old"></div>
+            <div class="species-info">
+              <div class="species-name">Rock Eagle-Owl</div>
+              <div class="species-meta">
+                <span class="meta-tag tag-date">26 Jan 2026</span>
+                <span class="meta-tag tag-loc">mulsi | IN-MH</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="featured-card" aria-labelledby="featured-title">
+          <p class="project-badge">FEATURED PROJECT</p>
+          <h2 id="featured-title" class="project-title">Photography Portfolio</h2>
+          <p class="project-desc">Field moments captured at the intersection of patience and systems thinking. 157 species documented and counting.</p>
+          <div class="exif-block" aria-label="Project metadata">
+            <div class="exif-row"><span class="exif-key">Format</span><span class="exif-val">RAW + Lightroom</span></div>
+            <div class="exif-row"><span class="exif-key">Focus</span><span class="exif-val">Visual narrative</span></div>
+            <div class="exif-row"><span class="exif-key">State</span><span class="exif-val">Curated and evolving</span></div>
+            <div class="exif-row"><span class="exif-key">Target</span><span class="exif-val">1,400 species</span></div>
+          </div>
+          <a class="launch-btn" href="https://vivek-doshi.github.io/portfolio/" target="_blank" rel="noreferrer noopener">$ ./launch --portfolio birds-of-india</a>
+        </article>
+
+        <aside class="status-col" aria-label="Quick nav and live status">
+          <div class="status-card">
+            <h2 class="status-title">System presence</h2>
+            <div class="status-row"><span class="status-key">Mode</span><span class="status-val green">● Deep work</span></div>
+            <div class="status-row"><span class="status-key">Stack</span><span class="status-val blue">.NET 8 · Angular · K8s, GenAi,</span></div>
+            <div class="status-row"><span class="status-key">Role</span><span class="status-val">Principal Eng.</span></div>
+            <div class="status-row"><span class="status-key">Local Time</span><span class="status-val" id="local-time">--:--:--</span></div>
+          </div>
+
+          <div class="status-card">
+            <h2 class="status-title">Quick nav</h2>
+            <nav class="quick-links cmd-list" aria-label="Quick navigation links">
+              <a class="cmd-item" href="https://vivek-doshi.github.io/portfolio/" target="_blank" rel="noreferrer noopener"><i class="bi bi-camera"></i><span class="cmd-item-label">portfolio</span><span class="cmd-item-shortcut">P</span></a>
+              <a class="cmd-item" href="https://vivek-doshi.github.io/devops-playbook/" target="_blank" rel="noreferrer noopener"><i class="bi bi-gear"></i><span class="cmd-item-label">devops playbook</span><span class="cmd-item-shortcut">D</span></a>
+              <a class="cmd-item" href="https://vivek-doshi.github.io/handbooks/" target="_blank" rel="noreferrer noopener"><i class="bi bi-journal-text"></i><span class="cmd-item-label">handbooks</span><span class="cmd-item-shortcut">H</span></a>
+              <a class="cmd-item" href="https://vivek-doshi.github.io/Resume/" target="_blank" rel="noreferrer noopener"><i class="bi bi-file-earmark-person"></i><span class="cmd-item-label">resume</span><span class="cmd-item-shortcut">R</span></a>
+            </nav>
+          </div>
+        </aside>
+      </section>
     </section>
   </main>
 
@@ -149,7 +214,7 @@
         <button type="button" class="palette-close" aria-label="Close command palette" data-close-palette>Esc</button>
       </header>
       <label class="sr-only" for="paletteInput">Search commands</label>
-      <input id="paletteInput" class="palette-input" type="text" autocomplete="off" placeholder="Type: portfolio, resume, playbook..." />
+      <input id="paletteInput" class="palette-input" type="text" autocomplete="off" placeholder="Type: portfolio, handbooks, resume..." />
       <ul class="palette-results" id="paletteResults"></ul>
     </section>
   </div>
@@ -225,13 +290,6 @@
         });
       }
 
-      function revealPanels() {
-        var panels = document.querySelectorAll("[data-reveal]");
-        panels.forEach(function (panel, index) {
-          panel.style.setProperty("--delay", String(index * 70) + "ms");
-        });
-      }
-
       paletteOpeners.forEach(function (trigger) {
         trigger.addEventListener("click", openPalette);
       });
@@ -261,7 +319,13 @@
 
       updateClock();
       window.setInterval(updateClock, 1000);
-      revealPanels();
+
+      var modes = ["deep-work", "field-mode", "shipping", "open-to-work"];
+      var modeIndex = 0;
+      window.setInterval(function () {
+        modeIndex = (modeIndex + 1) % modes.length;
+        document.getElementById("typed-text").textContent = modes[modeIndex];
+      }, 2500);
     })();
   </script>
 </body>
